@@ -8,9 +8,9 @@
     "securecontext": "user_type1_0"
   },
   {
-    "username": "house",
-    "password": "house",
-    "displayname" : "Slaughter House",
+    "username": "tyson",
+    "password": "tyson",
+    "displayname" : "Tyson Fresh Meats",
     "peer": "vp1",
     "chaincodeid": "2ad10c789a46fd13445e5014e38dbc5f641ac08d89e40a4a1b1f0b6be83fa39edd911e6c3d1824e7e118af5c5f029fce33ad08910e49f04c0a45c31e609aede3",
     "securecontext" : "user_type1_0"

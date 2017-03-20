@@ -315,7 +315,7 @@ app.localization.registerView('vp04home');
             title = "";
             image = "components/home/transfer.png";
             gradientcolor = "#00e68a";
-            content = "Transfered to Slaughter House";
+            content = "Transfered to Tyson Fresh Meats";
         }
         else if (dataItem.type == "RAWMEATCREATION") {
             name = "Raw Meat";
@@ -624,7 +624,7 @@ app.localization.registerView('vp04home');
             title = "";
             image = "components/home/transfer.png";
             gradientcolor = "#00e68a";
-            content = "Transfered to Slaughter House";
+            content = "Transfered to Tyson Fresh Meats";
         }
         else if (dataItem.type == "RAWMEATCREATION") {
             name = "Raw Meat";
