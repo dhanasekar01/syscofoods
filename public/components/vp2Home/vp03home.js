@@ -331,9 +331,12 @@ app.localization.registerView('vp03home');
                     var result = app.queryApi("getCattle", ["foodpackids"]);
                     var response = JSON.parse(result.responseText);
                     var message = JSON.parse(response.result.message);
-                    var packageid = message.foodpacks.length;
-
+                    var packageid = 0;
                     vp03homeModel.currentlength = packageid;
+                    try {
+                        packageid = message.foodpacks.length;
+                        vp03homeModel.currentlength = packageid;
+                    } catch (e) { }
 
                     for (var i = 0; i < pkgcount ; i++) {
                         data.push({ id: packageid + (i+1) });
